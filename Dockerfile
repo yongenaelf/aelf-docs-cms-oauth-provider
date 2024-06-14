@@ -7,4 +7,6 @@ COPY --chown=node:node ["package.json", "package-lock.json", "index.js", "./"]
 
 RUN npm install --omit-dev
 
+ENV PORT=8080
+
 CMD [ "index.js" ]
