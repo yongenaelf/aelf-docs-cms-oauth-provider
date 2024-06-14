@@ -1,0 +1,20 @@
+{
+    "name": "aelf-docs-cms-oauth-provider",
+    "version": "1.0.0",
+    "description": "netlify oauth github client",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "express": "^4.16.4",
+      "tiny-json-http": "^7.1.2"
+    },
+    "license": "MIT",
+    "keywords": [
+      "netlify",
+      "cms",
+      "auth"
+    ]
+  }
+  
